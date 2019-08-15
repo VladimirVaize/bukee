@@ -49,7 +49,7 @@ body {
 	background: #666 url(../img/main-bg.jpg) center no-repeat;
 	background-size: cover;
 	color: @light;
-	padding-bottom: 50px;
+	padding-bottom: 158px;
 }
 .header {
 	display: flex;
@@ -57,8 +57,8 @@ body {
 	align-items: center;
 	max-width: 1170px;
 	margin: 0 auto;
-	padding-top: 38px;
-	padding-bottom: 166px;
+	padding-top: 53px;
+	padding-bottom: 178px;
 	&__logo {
 		display: block;
 		width: 137px;
@@ -69,7 +69,7 @@ body {
 	&-list {
 		display: flex;
 		justify-content: flex-end;
-		font-family: 'Open Sans', serif;
+		font-family: 'Open Sans', sans-serif;
 		font-size: 16px;
 		&__item {
 			margin-left: 22px;
@@ -85,38 +85,40 @@ body {
 		}
 		&__link {
 			color: @light;
-			letter-spacing: 0.5px;
+			letter-spacing: 0.48px;
 		}
 	}
 }
 
 .block-text {
-	flex-basis: calc(93% - 500px);
+	flex-basis: calc(100% - 500px);
 	&__name {
-		font-family: 'Open Sans', serif;
+		font-family: 'Open Sans', sans-serif;
 		font-size: 18px;
-		letter-spacing: 0.7px;
-		margin-bottom: 30px;
+		letter-spacing: 0.8px;
+		padding-left: 4px;
+		margin-bottom: 34px;
+		margin-top: 3px;
 	}
 	&__title {
 		font-size: 48px;
 		font-weight: 700;
-		letter-spacing: 1,8px;
-		margin-bottom: 40px;
+		letter-spacing: 1.9px;
+		margin-bottom: 42px;
 		span {
 			display: block;
 			color: @accent-color;
 			font-size: 18px;
-			margin-top: 9px;
-			letter-spacing: 0.9px;
+			margin-top: 16px;
+			letter-spacing: 1px;
 		}
 	}
 	&__description {
-		font-family: 'Open Sans', serif;
+		font-family: 'Open Sans', sans-serif;
 		font-size: 15px;
 		line-height: 24px;
 		margin-bottom: 24px;
-		letter-spacing: 0.7px;
+		letter-spacing: 0.8px;
 	}
 	&__btn {
 		display: block;
@@ -126,10 +128,14 @@ body {
 		border-radius: 3px;
 		text-align: center;
 		font-size: 18px;
-		margin-top: 48px;
+		margin-top: 53px;
 		padding: 14px 0;
 		letter-spacing: 0.7px;
-		margin-bottom: 19px;
+		margin-bottom: 21px;
+	}
+	small {
+		font-family: 'Open Sans', sans-serif;
+		font-style: italic;
 	}
 }
 .block-book {
@@ -137,7 +143,7 @@ body {
 	justify-content: space-between;
 	&-demo {
 		display: block;
-		min-width: 443px;
+		min-width: 445px;
 		height: 643px;
 		background-image: url(../img/book.svg);
 		background-repeat: no-repeat;
