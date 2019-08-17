@@ -51,6 +51,11 @@ body {
 	color: @light;
 	padding-bottom: 158px;
 }
+
+.author-page{
+	margin-top: 161px;
+}
+
 .header {
 	display: flex;
 	justify-content: space-between;
@@ -100,6 +105,10 @@ body {
 		margin-bottom: 34px;
 		margin-top: 3px;
 	}
+	&__name-top {
+		margin-top: 18px;
+		margin-bottom: 23px;
+	}
 	&__title {
 		font-size: 48px;
 		font-weight: 700;
@@ -148,5 +157,21 @@ body {
 		background-image: url(../img/book.svg);
 		background-repeat: no-repeat;
 		flex-basis: 443px;
+	}
+}
+.block-author {
+	display: flex;
+	justify-content: space-between;
+}
+.block-ava {
+	position: relative;
+	&__svg {
+		position: absolute;
+		z-index: -1;
+		right: 0;
+	}
+	&__img {
+		margin-top: 46px;
+		margin-right: 43px;
 	}
 }
