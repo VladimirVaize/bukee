@@ -229,13 +229,13 @@ h3 {
 		margin-left: 3px;
 		letter-spacing: 1.3px;
 	}
-	p {
-		font-family: 'Open Sans', sans-serif;
-		letter-spacing: 0.6px;
-		margin-bottom: 36px;
-	}
 	&-text {
 		flex-basis: 41%;
+		&__desc {
+			font-family: 'Open Sans', sans-serif;
+			letter-spacing: 0.6px;
+			margin-bottom: 31px;
+		}
 	}
 	&-table {
 		flex-basis: 49%;
@@ -261,7 +261,7 @@ h3 {
 					left: 0;
 					color: @light;
 					font-size: 15px;
-					background-color: @accent-color;
+					background-color: #5fc9b3;
 					padding: 0 7px;
 					top: 1px;
 					line-height: 22px;
@@ -279,6 +279,29 @@ h3 {
 			margin-top: 27px;
 			padding: 14px 51px;
 			letter-spacing: 0.7px;
+		}
+	}
+	&-social {
+		display: flex;
+		align-items: center;
+		&__title {
+			font-family: 'Roboto Slab', serif;
+			font-size: 18px;
+			font-weight: 700;
+			margin-left: 4px;
+			letter-spacing: 1px;
+		}
+		&__list {
+			margin-left: 22px;
+			& li {
+				display: inline-block;
+				font-size: 18px;
+				vertical-align: middle;
+				margin-right: 13px;
+				& a {
+					color: @accent-color;
+				}
+			}
 		}
 	}
 }
