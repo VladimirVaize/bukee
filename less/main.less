@@ -549,3 +549,59 @@ h3 {
 		width: 100%;
 	}
 }
+.footer {
+	background-color: @bg-dark-color;
+	color: @gray-color;
+	padding: 159px 0;
+}
+.block-footer {
+	display: flex;
+	justify-content: space-between;
+	div {
+		&:nth-child(1) {
+			flex-basis: 32%;
+		}
+		&:nth-child(2) {
+			flex-basis: 23%;
+		}
+		&:nth-child(3) {
+			flex-basis: 23%;
+		}
+	}
+	p {
+		letter-spacing: .53px;
+		margin-bottom: 26px;
+	}
+	&__logo {
+		display: block;
+		width: 137px;
+		height: 28px;
+		background-image: url(../img/logo-footer.svg);
+		background-repeat: no-repeat;
+		margin-bottom: 28px;
+	}
+	&__title {
+		font-size: 18px;
+		color: @accent-color;
+		text-transform: uppercase;
+		margin-top: 9px;
+		margin-bottom: 22px;
+		letter-spacing: 0.6px;
+	}
+	&__list {
+		padding-left: 0;
+		li {
+			margin-bottom: 4px;
+		}
+	}
+	&__social {
+		display: flex;
+		padding-left: 0;
+		li {
+			margin-right: 10px;
+			a {
+				color: @accent-color;
+			}
+		}
+	}
+}
