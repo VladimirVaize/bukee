@@ -4,3 +4,7 @@ $(document).ready(function(){
   	arrows: false,
   });
 });
+$("#nextContents").click(function() {
+	$("#nextContentsList").fadeIn();
+	$("#nextContents").hide();
+});
